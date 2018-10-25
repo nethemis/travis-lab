@@ -4,5 +4,5 @@ importlib.import_module("hello")
 
 class TestCase():
     def setUp(self):
-        print ("Hello World!!")
+        return self.assertEqual(hello.hi(), "Hello World!!")
 
